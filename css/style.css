@@ -1,7 +1,7 @@
 /* Estilização globais */
 body {
 
-    background: color hsl(180, 100%, 100%) ; 
+    background-color:cornsilk ; 
     margin: 0px;
     margin-top: 60px;
     display: grid; /*container se comporta em grade */
@@ -54,59 +54,17 @@ img {
     max-width: 1000px;
  }
 
- .botao {
+ .botao{
     background-color: #9353ff;
     padding: 15px 30px;
     border-radius: 4px;
     text-transform: uppercase;
-    color: #FFF;
-
-}
+    color: #fff;
+ }
 
 .botao:hover {
     background-color: #fff;
     color: #000;
-}
-
-
-/* Estilização da introdução */
-
-.introducao {
-    display: grid;
-    padding: 40px;
-    background-color: #fff;
-    text-align: end;
-    align-content: center;
-    gap: 20px;
-    justify-items: end;
-
-}
-
-.subtitulo {
-    text-transform: uppercase;
-    font-size: 64px;
-    text-align: end;
-    padding: 40px;
-    align-self: center;
-    color: rgb(0, 0, 0, 0.2);
-}
-
- /* Estilização das vantagens */
-.vantagens {
-    background-color: #fff;
-    padding: 40px;
-}
-
-.vantagens-item {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 10px 20px;
-    padding: 20px;
-
-}
-
-.vantagens-item p {
-    grid-column: 2;
 }
 
 /* Estilização do footer */
@@ -114,7 +72,5 @@ img {
     background-color: #fff;
     text-align: center;
     padding: 40px;
-    width: 95%;
+    width: 100%;
 }
-
-
